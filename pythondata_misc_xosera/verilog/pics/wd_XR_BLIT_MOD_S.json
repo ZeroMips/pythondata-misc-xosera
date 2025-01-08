@@ -1,0 +1,12 @@
+{
+    "reg": [
+        {
+            "bits": 16,
+            "name": "modulo value added to S address at end of each line",
+            "type": 4
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

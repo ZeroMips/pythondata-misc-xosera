@@ -1,0 +1,59 @@
+{
+    "reg": [
+        {
+            "bits": 1,
+            "name": "Sconst",
+            "type": 3,
+            "attr": [
+                "S term",
+                "0=mem",
+                "1=const"
+            ]
+        },
+        {
+            "bits": 3,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 1,
+            "name": "transp",
+            "type": 4,
+            "attr": [
+                "transp.",
+                "testing",
+                "0=off",
+                "1=on"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "transp8",
+            "type": 4,
+            "attr": [
+                "transp.",
+                "mode",
+                "0=4-bit",
+                "1=8-bit"
+            ]
+        },
+        {
+            "bits": 2,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 8,
+            "name": "4/8-bit transparency value(s) T",
+            "type": 4,
+            "attr": [
+                "even/odd 4-bit transparent values for 4-bit mode",
+                "or 8-bit transparent value for 8-bit mode",
+                "(tested against S term)"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

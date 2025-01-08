@@ -1,0 +1,66 @@
+{
+    "reg": [
+        {
+            "bits": 1,
+            "name": "pix 7",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 6",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 5",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 4",
+            "type": 4,
+            "attr": [
+                "one bit per pixel, MSB on left"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "pix 3",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 2",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 1",
+            "type": 4
+        },
+        {
+            "bits": 1,
+            "name": "pix 0",
+            "type": 4
+        },
+        {
+            "bits": 4,
+            "name": "foreground color index",
+            "type": 5,
+            "attr": [
+                "used for one bits in word"
+            ]
+        },
+        {
+            "bits": 4,
+            "name": "background color index",
+            "type": 2,
+            "attr": [
+                "used for zero bits in word"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

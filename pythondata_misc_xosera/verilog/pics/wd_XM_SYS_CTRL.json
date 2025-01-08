@@ -1,0 +1,104 @@
+{
+    "reg": [
+        {
+            "bits": 4,
+            "name": "VRAM nibble write mask",
+            "type": 2,
+            "attr": [
+                "XM_DATA/XM_DATA_2",
+                "VRAM word nibble mask",
+                "0=mask write to nibble",
+                "1=allow write to nibble"
+            ]
+        },
+        {
+            "bits": 4,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 1,
+            "name": "8-bit",
+            "type": 2,
+            "attr": [
+                "pix x/y",
+                "8-bit",
+                "even",
+                "coord"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "nomask",
+            "type": 2,
+            "attr": [
+                "pix x/y",
+                "no",
+                "mask"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "V-blank",
+            "type": 3,
+            "attr": [
+                "in",
+                "V-blank",
+                "0=no",
+                "1=yes"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "H-blank",
+            "type": 4,
+            "attr": [
+                "in",
+                "H-blank",
+                "0=no",
+                "1=yes"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 1,
+            "name": "busy",
+            "type": 4,
+            "attr": [
+                "blit",
+                "working",
+                "0=idle",
+                "1=busy"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "full",
+            "type": 3,
+            "attr": [
+                "blit",
+                "queue",
+                "0=ready",
+                "1=wait"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "wait",
+            "type": 5,
+            "attr": [
+                "memory",
+                "wait",
+                "0=ready",
+                "1=wait"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

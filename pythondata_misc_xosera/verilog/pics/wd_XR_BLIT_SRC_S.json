@@ -1,0 +1,13 @@
+{
+    "reg": [
+        {
+            "bits": 16,
+            "name": "source term S VRAM address or constant value (if constS set)",
+            "type": 4,
+            "attr": []
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

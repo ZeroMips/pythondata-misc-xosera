@@ -1,0 +1,20 @@
+{
+    "reg": [
+        {
+            "bits": 11,
+            "name": "video window left-edge",
+            "type": 4,
+            "attr": [
+                "left-most native pixel of video display window (inclusive)"
+            ]
+        },
+        {
+            "bits": 5,
+            "name": "0",
+            "type": 1
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

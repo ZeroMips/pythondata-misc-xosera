@@ -1,0 +1,21 @@
+{
+    "reg": [
+        {
+            "bits": 15,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 1,
+            "name": "Enable",
+            "type": 5,
+            "attr": [
+                "0 = off",
+                "1 = run"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

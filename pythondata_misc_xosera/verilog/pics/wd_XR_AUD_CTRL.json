@@ -1,0 +1,21 @@
+{
+    "reg": [
+        {
+            "bits": 1,
+            "name": "enable",
+            "type": 2,
+            "attr": [
+                "audio",
+                "enable"
+            ]
+        },
+        {
+            "bits": 15,
+            "name": "0",
+            "type": 1
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "reg": [
+        {
+            "bits": 8,
+            "name": "border color A index",
+            "type": 2,
+            "attr": [
+                "color index of border or blanked pixels",
+                "(from playfield A colormap)"
+            ]
+        },
+        {
+            "bits": 7,
+            "name": "0",
+            "type": 1
+        },
+        {
+            "bits": 1,
+            "name": "swap",
+            "type": 4,
+            "attr": [
+                "playfield",
+                "colormap",
+                "swap"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "reg": [
+        {
+            "bits": 11,
+            "name": "current video scanline",
+            "type": 4,
+            "attr": [
+                "current display scanline (including non-visible lines >= 480)"
+            ]
+        },
+        {
+            "bits": 5,
+            "name": "0",
+            "type": 1
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

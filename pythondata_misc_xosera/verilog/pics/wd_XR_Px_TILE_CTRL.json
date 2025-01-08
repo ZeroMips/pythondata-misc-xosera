@@ -1,0 +1,47 @@
+{
+  "reg": [
+    {
+      "bits": 4,
+      "name": "tile height",
+      "type": 4,
+      "attr": [
+        "(height-1, stored as 8 or 16)",
+        "(but truncated at height)"
+      ]
+    },
+    {
+      "bits": 4,
+      "type": 1
+    },
+    {
+      "bits": 1,
+      "name": "tile",
+      "type": 5,
+      "attr": [
+        "0=tile",
+        "1=vram"
+      ]
+    },
+    {
+      "bits": 1,
+      "name": "display",
+      "type": 2,
+      "attr": [
+        "0=vram",
+        "1=tile"
+      ]
+    },
+    {
+      "bits": 6,
+      "name": "tile base address",
+      "type": 6,
+      "attr": [
+        "(1K word boundary 8x8)",
+        "(2K word boundary 8x16)"
+      ]
+    }
+  ],
+  "config": {
+    "bits": 16
+  }
+}

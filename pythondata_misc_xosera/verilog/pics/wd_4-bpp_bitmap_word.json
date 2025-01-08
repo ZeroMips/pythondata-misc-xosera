@@ -1,0 +1,30 @@
+{
+    "reg": [
+        {
+            "bits": 4,
+            "name": "pixel 3",
+            "type": 4
+        },
+        {
+            "bits": 4,
+            "name": "pixel 2",
+            "type": 4
+        },
+        {
+            "bits": 4,
+            "name": "pixel 1",
+            "type": 4,
+            "attr": [
+                "4 bits per pixel, MSB on left"
+            ]
+        },
+        {
+            "bits": 4,
+            "name": "pixel 0",
+            "type": 4
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

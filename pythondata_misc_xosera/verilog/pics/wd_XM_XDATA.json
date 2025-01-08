@@ -1,0 +1,12 @@
+{
+    "reg": [
+        {
+            "bits": 16,
+            "name": "16-bit XR register / memory word to read/write from XR_RD_XADDR/XR_WR_XADDR",
+            "type": 4
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

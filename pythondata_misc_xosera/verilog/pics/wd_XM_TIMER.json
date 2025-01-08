@@ -1,0 +1,15 @@
+{
+    "reg": [
+        {
+            "bits": 16,
+            "name": "16-bit tenth of millisecond timer",
+            "type": 4,
+            "attr": [
+                "16-bit timer value when read"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}

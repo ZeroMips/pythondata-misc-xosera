@@ -1,0 +1,70 @@
+{
+    "reg": [
+        {
+            "bits": 2,
+            "name": "V repeat",
+            "type": 6,
+            "attr": [
+                "00=1x tall",
+                "01=2x tall",
+                "10=3x tall",
+                "11=4x tall"
+            ]
+        },
+        {
+            "bits": 2,
+            "name": "H repeat",
+            "type": 6,
+            "attr": [
+                "00=1x wide",
+                "01=2x wide",
+                "10=3x wide",
+                "11=4x wide"
+            ]
+        },
+        {
+            "bits": 2,
+            "name": "bits-per-pixel",
+            "type": 3,
+            "attr": [
+                "00=1-bpp",
+                "01=4-bpp",
+                "10=8-bpp",
+                "11=reserved"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "bitmap",
+            "type": 5,
+            "attr": [
+                "0=tiled",
+                "1=bitmap"
+            ]
+        },
+        {
+            "bits": 1,
+            "name": "blank",
+            "type": 2,
+            "attr": [
+                "0=on",
+                " ",
+                "1=playfield",
+                "blanked"
+            ]
+        },
+        {
+            "bits": 8,
+            "name": "colorbase",
+            "type": 4,
+            "attr": [
+                "exclusive-OR'd with result playfield",
+                "color index as final step",
+                "before colormap look-up"
+            ]
+        }
+    ],
+    "config": {
+        "bits": 16
+    }
+}
