@@ -1,0 +1,2 @@
+graft pythondata_misc_xosera/verilog/
+global-exclude *.py[cod]
